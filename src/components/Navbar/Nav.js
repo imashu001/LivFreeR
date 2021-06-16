@@ -12,10 +12,8 @@ const Navbar = () => {
 
   useEffect(() => {
     function handleClickOutside(event) {
-      console.log("runnig")
       if (outsideRef.current && !outsideRef.current.contains(event.target)) {
         setNavBarStatus('')
-      console.log("mmmmmmmmrunnig")
 
       }
     }
