@@ -1,0 +1,15 @@
+.navbar-main-component{
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+h1{
+  text-decoration: none;
+  color: aliceblue;
+}
+a{
+  text-decoration: none;
+}
